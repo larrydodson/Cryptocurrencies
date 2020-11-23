@@ -1,8 +1,5 @@
-# templates
-general location of my templates
-
-# Project Name 
-subtitle 
+# Cryptocurrencies
+UTMCC DataViz Module 17 Cryptocurrencies, unsupervised algorithms
 
 ---
 
@@ -32,7 +29,7 @@ subtitle
   
    ### Resources
   * Data/content sources: t 
-  * Software: Windows10, Python 3.8.3, Jupyter Notebook, VS Code 1.49.1, HTML, Splinter, BeautifulSoup 2.0.1, Flask 1.1.2, flask_pymongo 2.3.0, HTML 5, JavaScript, Bootstrap 3.3.7, MongoDB 4.4.1
+  * Software: Windows10, Python 3.8.3, Jupyter Notebook, VS Code 1.49.1, Libraries: Scikit-learn, Plotly, hvPlot   
   
 <br>
 

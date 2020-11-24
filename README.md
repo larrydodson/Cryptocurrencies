@@ -1,5 +1,5 @@
 # Cryptocurrencies
-UTMCC DataViz Module 17 Cryptocurrencies, unsupervised algorithms
+UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
 
 ---
 
@@ -16,20 +16,22 @@ UTMCC DataViz Module 17 Cryptocurrencies, unsupervised algorithms
 ## Overview 
   
   In support of . 
+  a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. So, they’ve asked you to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
 
    ### Purpose
    To prepare a new . 
+   The data will need to be processed to fit the machine learning models. Since there is no known output so have used unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. And, to use data visualizations to share findings with the company's board.
   
    The deliverables are: 
-   - Deliverable 1: a
-   - Deliverable 2: b
-   - Deliverable 3: c.
-  
+   - Deliverable 1: Preprocessing the Data for PC
+   - Deliverable 2: Reducing Data Dimensions Using PCA
+   - Deliverable 3: Clustering Cryptocurrencies Using K-means
+   - Deliverable 4: Visualizing Cryptocurrencies Results
    
   
    ### Resources
-  * Data/content sources: t 
-  * Software: Windows10, Python 3.8.3, Jupyter Notebook, VS Code 1.49.1, Libraries: Scikit-learn, Plotly, hvPlot   
+  * Data/content data source: crypto_data.csv, retrieved from CryptoCompare https://min-api.cryptocompare.com/ 
+  * Software: Windows10, Python 3.8.3, Jupyter Notebook, Libraries: Pandas, Scikit-learn, KMeans, PCA, StandardScaler, MinMaxScaler, Plotly,, plotly.express, hvPlot   
   
 <br>
 
@@ -37,13 +39,21 @@ UTMCC DataViz Module 17 Cryptocurrencies, unsupervised algorithms
 
 ## Results
 
-   Below . 
 
-### Deliverable 1: a
+   ### Deliverable 1: Preprocessing the Data for PC
+   
+   
+   
+   ### Deliverable 2: Reducing Data Dimensions Using PCA
+   
+   
+   
+   ### Deliverable 3: Clustering Cryptocurrencies Using K-means
+   
+   
+   
+   ### Deliverable 4: Visualizing Cryptocurrencies Results
 
-### Deliverable 2: b 
-
-### Deliverable 3: n 
 
 
 
@@ -62,8 +72,7 @@ UTMCC DataViz Module 17 Cryptocurrencies, unsupervised algorithms
 
 # Summary
 
-### Questions and Replies 
-  1. **How m
+### Q
 
 
 

@@ -42,40 +42,49 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
 
    ### Deliverable 1: Preprocessing the Data for PC
    
+   | **crypto_df DataFrame** | **abc** |
+   | :---: | :---: | 
+   | ![D1_crypto_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_crypto_df.png) | ![D1_dummies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_dummies.png) | 
    
    
    ### Deliverable 2: Reducing Data Dimensions Using PCA
    
+   | **crypto_pca_df** |
+   | :---: |
+   | ![D2_crypto_pca_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D2_crypto_pca_df.png) |
    
    
    ### Deliverable 3: Clustering Cryptocurrencies Using K-means
+   
+   | **Elbow Curve** | **clustered_df** |
+   | :---: | :---: | 
+   | ![D3_elbow_curve.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D3_elbow_curve.png) | ![D3_clustered_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D3_clustered_df.png) | 
+   
+      
+   | **abc** | **abc** |
+   | :---: | :---: | 
+   | ![]() | ![]() | 
    
    
    
    ### Deliverable 4: Visualizing Cryptocurrencies Results
 
-
-
-
-
- 
-   | **abc** |
-   | :---: |
-   | ![]() |
-
-
-
+   
+   | **3D Scatter Plot** | **Tradable Cryptocurrencies Table** |
+   | :---: | :---: | 
+   | ![D4_3Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_3Dscatter.png) | ![D4_tradable_cryptocurrencies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_tradable_cryptocurrencies.png) | 
+   
+      
+   | **clustered_scaled** | **2D Scatter Plot** |
+   | :---: | :---: | 
+   | ![D4_clustered_scaled.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_clustered_scaled.png) | ![D4_2Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_2Dscatter.png) | 
+   
 
 <br>
 
 ---
 
 # Summary
-
-### Q
-
-
-
 
 
 

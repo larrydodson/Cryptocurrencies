@@ -40,7 +40,7 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
 
    ### Deliverable 1: Preprocessing the Data for PC
    
-   | **crypto_df DataFrame**<br>after preprocessing | **get_dummies method**<br>creating variables for text Features |
+   | **crypto_df DataFrame** <br>after preprocessing | **get_dummies method** <br>creating variables for text Features |
    | :---: | :---: | 
    | ![D1_crypto_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_crypto_df.png) | ![D1_dummies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_dummies.png) | 
    
@@ -48,7 +48,7 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    
    ### Deliverable 2: Reducing Data Dimensions Using PCA
    
-   | **crypto_pca_df DataFrame**<br>Principal Component Analysis |
+   | **crypto_pca_df DataFrame** <br>Principal Component Analysis |
    | :---: |
    | ![D2_crypto_pca_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D2_crypto_pca_df.png) |
  
@@ -57,7 +57,7 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    
    ### Deliverable 3: Clustering Cryptocurrencies Using K-means
    
-   | **Elbow Curve**<br>using hvPlot, finding the best value for K | **clustered_df DataFrame** |
+   | **Elbow Curve** <br>using hvPlot, finding the best value for K | **clustered_df DataFrame** |
    | :---: | :---: | 
    | ![D3_elbow_curve.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D3_elbow_curve.png) | ![D3_clustered_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D3_clustered_df.png) | 
    
@@ -67,12 +67,12 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    ### Deliverable 4: Visualizing Cryptocurrencies Results
 
    
-   | **3D Scatter Plot**<br>using Plotly Express, plotting the clusters from clustered_df, with hover_data parameters | **Tradable Cryptocurrencies Table**<br>using hvplot.table() function |
+   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df, with hover_data parameters | **Tradable Cryptocurrencies Table** <br>using hvplot.table() function |
    | :---: | :---: | 
    | ![D4_3Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_3Dscatter.png) | ![D4_tradable_cryptocurrencies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_tradable_cryptocurrencies.png) | 
    
       
-   | **clustered_scaled**<br>using the MinMaxScaler().fit_transform method | **2D Scatter Plot**<br>using hvplot, with hover_cols |
+   | **clustered_scaled** <br>using the MinMaxScaler().fit_transform method | **2D Scatter Plot** <br>using hvplot, with hover_cols |
    | :---: | :---: | 
    | ![D4_clustered_scaled.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_clustered_scaled.png) | ![D4_2Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_2Dscatter.png) | 
    

@@ -18,7 +18,7 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
   An investment bank is interested in offering a new cryptocurrency investment portfolio for customers. However, the industry of cryptocurrencies has hundreds of choices. A report was requested that is to include the various cryptocurrencies that are currently trading in the market and how they could be grouped to create a classification system.
 
    ### Purpose
-   Data is to be processed to fit machine learning models for unsupervised learning, since there is no known standard output. To group the cryptocurrencies, a clustering algorithm is used. Visualizations are generated to share findings with company stake holders.
+   Data on cryptocurrencies is to be processed to fit machine learning models for unsupervised learning, since there is no known standard output. To group the cryptocurrencies, a clustering algorithm is used. Visualizations are generated to share findings with company stake holders.
   
    The deliverables are: 
    - Deliverable 1: Preprocessing the Data for PC
@@ -71,13 +71,13 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    
    ### Deliverable 4: Visualizing Cryptocurrencies Results
   
-   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df <br>Hover_data parameters, each data point showing CoinName and Algorithm <br>The Total Number of Tradable Cryptocurrencies is Printed | **2D Scatter Plot** <br>using hvplot.scatter, with hover_cols showing the CoinName |
+   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df <br>Hover_data parameters, each data point showing the CoinName and the Algorithm | **2D Scatter Plot** <br>using hvplot.scatter, with hover_cols showing the CoinName |
    | :---: | :---: |
    | ![D4_3Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_3Dscatter.png) | ![D4_2Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_2Dscatter.png) |
 
 
 
-   | **Tradable Cryptocurrencies Table** <br>using hvplot.table() function | **clustered_scaled** <br>using the MinMaxScaler().fit_transform method | 
+   | **Tradable Cryptocurrencies Table** <br>using hvplot.table() function  <br>The Total Number of Tradable Cryptocurrencies is Printed. | **clustered_scaled** <br>using the MinMaxScaler().fit_transform method | 
    | :---: | :---: |
    | ![D4_tradable_cryptocurrencies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_tradable_cryptocurrencies.png) | ![D4_clustered_scaled.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_clustered_scaled.png) | 
 

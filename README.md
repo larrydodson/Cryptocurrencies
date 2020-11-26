@@ -28,8 +28,9 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    
   
    ### Resources
-  * Data/content data source: crypto_data.csv, retrieved from CryptoCompare https://min-api.cryptocompare.com/ 
-  * Software: Windows10, Python 3.8.3, Jupyter Notebook, Libraries: Pandas, Scikit-learn, KMeans, PCA, StandardScaler, MinMaxScaler, Plotly, plotly.express, hvPlot   
+  * Data/content source: crypto_data.csv, retrieved from CryptoCompare https://min-api.cryptocompare.com/ 
+  * Software: Windows10, Python 3.8.3, Jupyter Notebook, Libraries: Pandas, Scikit-learn, KMeans, PCA, StandardScaler, MinMaxScaler, Plotly, plotly.express, hvPlot 
+  * Results in Jupyter Notebook file: `crypto_clustering.ipynb`
   
 <br>
 

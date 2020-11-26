@@ -40,10 +40,14 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
 
    ### Deliverable 1: Preprocessing the Data for PC
    
-   | **crypto_df DataFrame** <br>after preprocessing | **get_dummies method** <br>creating variables for text Features |
+   | **crypto_df DataFrame** <br>result after six preprocessing steps | **get_dummies method** <br>creating variables for text Features |
    | :---: | :---: | 
    | ![D1_crypto_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_crypto_df.png) | ![D1_dummies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_dummies.png) | 
    
+   Also, please see the notebook `crypto_clustering.ipynb`:
+    * A new DataFrame was created to store all cryptocurrency names with the crypto_df index, `CoinName_df` . 
+    * Using StandardScaler().fit_transform, the Features from the crypto8_df DataFrame were standardized `crypto_scaled = StandardScaler().fit_transform(crypto8_df)` . 
+
 . 
    
    ### Deliverable 2: Reducing Data Dimensions Using PCA

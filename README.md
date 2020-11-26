@@ -45,8 +45,9 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    | ![D1_crypto_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_crypto_df.png) | ![D1_dummies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D1_dummies.png) | 
    
    Also, please see the notebook `crypto_clustering.ipynb`:
-    * A new DataFrame was created to store all cryptocurrency names with the crypto_df index, `CoinName_df` . 
-    * Using StandardScaler().fit_transform, the Features from the crypto8_df DataFrame were standardized `crypto_scaled = StandardScaler().fit_transform(crypto8_df)` . 
+    
+   * A new DataFrame was created to store all cryptocurrency names with the crypto_df index, `CoinName_df` . 
+   * Using StandardScaler().fit_transform, the Features from the crypto8_df DataFrame were standardized `crypto_scaled = StandardScaler().fit_transform(crypto8_df)` . 
 
 . 
    
@@ -69,13 +70,13 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
 .
    
    ### Deliverable 4: Visualizing Cryptocurrencies Results
-
-   
-   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df <br> * Hover_data parameters, each data point showing CoinName and Algorithm. <br> The Total Number of Tradable Cryptocurrencies is Printed. | https://www.coursera.org/learn/sql-data-science | **2D Scatter Plot** <br>using hvplot.scatter, with hover_cols showing the CoinName. |
-   | :---: | :---: | 
-   | ![D4_3Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_3Dscatter.png) | ![D4_2Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_2Dscatter.png) | 
-   
   
+   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df <br>Hover_data parameters, each data point showing CoinName and Algorithm <br>The Total Number of Tradable Cryptocurrencies is Printed | **2D Scatter Plot** <br>using hvplot.scatter, with hover_cols showing the CoinName |
+   | :---: | :---: |
+   | ![D4_3Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_3Dscatter.png) | ![D4_2Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_2Dscatter.png) |
+
+
+
    | **Tradable Cryptocurrencies Table** <br>using hvplot.table() function | **clustered_scaled** <br>using the MinMaxScaler().fit_transform method | 
    | :---: | :---: |
    | ![D4_tradable_cryptocurrencies.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_tradable_cryptocurrencies.png) | ![D4_clustered_scaled.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_clustered_scaled.png) | 

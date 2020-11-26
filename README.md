@@ -57,7 +57,7 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    
    ### Deliverable 3: Clustering Cryptocurrencies Using K-means
    
-   | **Elbow Curve** <br>using hvPlot, finding the best value for K | **clustered_df DataFrame** |
+   | **Elbow Curve** <br>using hvPlot.line, finding the best value for K | **clustered_df DataFrame** |
    | :---: | :---: | 
    | ![D3_elbow_curve.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D3_elbow_curve.png) | ![D3_clustered_df.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D3_clustered_df.png) | 
    
@@ -67,7 +67,7 @@ UTMCC DataViz Module 18 Cryptocurrencies, unsupervised algorithms
    ### Deliverable 4: Visualizing Cryptocurrencies Results
 
    
-   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df, with hover_data parameters | **2D Scatter Plot** <br>using hvplot, with hover_cols |
+   | **3D Scatter Plot** <br>using Plotly Express, plotting the clusters from clustered_df <br> * Hover_data parameters, each data point showing CoinName and Algorithm. <br> The Total Number of Tradable Cryptocurrencies is Printed. | https://www.coursera.org/learn/sql-data-science | **2D Scatter Plot** <br>using hvplot.scatter, with hover_cols showing the CoinName. |
    | :---: | :---: | 
    | ![D4_3Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_3Dscatter.png) | ![D4_2Dscatter.png](https://github.com/larrydodson/Cryptocurrencies/blob/main/images/D4_2Dscatter.png) | 
    
